@@ -1,0 +1,24 @@
+Vision Statement
+
+The Study Tracker Program (STP) is a terminal-based Java application designed to enhance the learning experience
+by quizzing users on subject material from a CSV file of questions and answers. The program aims to facilitate
+progressive learning through repeated practice, tracking performance, and encouraging mastery by storing quiz
+results with timestamps. By consistently using STP, users will progressively improve their knowledge, with the
+ultimate goal of achieving 100% accuracy on their exams.
+
+User Stories
+
+	1.	As a user, I want to load a CSV file containing questions and answers, so that I can customize my study material.
+	•	Acceptance Criteria: The program reads the CSV file and stores the questions and answers in memory.
+	2.	As a user, I want the program to quiz me on selected modules, so that I can focus on specific areas of study.
+	•	Acceptance Criteria: The program allows me to choose specific modules and quizzes me only on those questions.
+	3.	As a user, I want the program to track my correct and incorrect answers, so that I can monitor my progress.
+	•	Acceptance Criteria: The program records whether each answer is correct or incorrect and provides feedback after each question.
+	4.	As a user, I want to view the percentage of correct answers at the end of each session, so that I can gauge my performance.
+	•	Acceptance Criteria: The program calculates and displays the percentage of correct answers at the end of the quiz.
+	5.	As a user, I want my quiz results to be saved with the date, so that I can track my progress over time.
+	•	Acceptance Criteria: The program saves the quiz results (date and score) in a table or log.
+	6.	As a user, I want to review my previous quiz performance, so that I can identify patterns in my learning and focus on improvement.
+	•	Acceptance Criteria: The program provides a way to view past scores and dates in a table or visual format.
+	7.	As a user, I want to work towards reaching 100% accuracy, so that I can ensure mastery of the material.
+	•	Acceptance Criteria: The program displays my progress towards achieving 100% in each module or the entire set of questions.
